@@ -1,5 +1,5 @@
 
 
 export const defaultReducer=()=>{
-    return {item:["Ram","Raj","Laxmna"]};
+    return {item:["Ram","Raj","Laxman"]};
 }

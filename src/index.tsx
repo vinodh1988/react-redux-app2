@@ -8,9 +8,13 @@ import state from './Redux/reducerHome';
 
 import * as serviceWorker from './serviceWorker';
 
-const store=createStore(state);
+const store=createStore(state); /*this function creates
+store from the object returned combineReducer
 
-ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+store is a single JS object which formed formed all the reducers combined*/
+
+ReactDOM.render
+(<Provider store={store}><App /></Provider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
